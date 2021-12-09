@@ -18,7 +18,7 @@ int partition(vector<int>&arr, int low, int high)
             swap(arr[i], arr[idx]);
         }
     }
-    // remember to swap pivot and arr[idx+1], otherwise pivot is not in correct position
+    // remember to swap pivot and arr[idx+1], otherwise pivot is not on correct position
     swap(arr[high], arr[idx+1]);
     return idx+1;
 }
