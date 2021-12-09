@@ -14,15 +14,6 @@ void merge_sort(vector<int>& arr)
     copy(buf.begin(), buf.end(), arr.begin());
 }
 
-void printarr(vector<int>&arr)
-{
-    for(auto i: arr)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << "\n";
-}
-
 void _merge_sort(vector<int>&arr, int left, int right, vector<int>& buf)
 {
     // only one element
